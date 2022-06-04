@@ -14,6 +14,9 @@ class ViewController: UIViewController {
 //        view.backgroundColor = .white
     }
 
+    func showComoponents() {
+        print("Hello")
+    }
 
 }
 
