@@ -35,6 +35,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338F7461284B7BB800F532AC /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				33A97DF0284B78090017111C /* AppDelegate.swift */,
+				33A97DF2284B78090017111C /* SceneDelegate.swift */,
+				33A97DF9284B780A0017111C /* Assets.xcassets */,
+				33A97DFB284B780A0017111C /* LaunchScreen.storyboard */,
+				33A97DFE284B780A0017111C /* Info.plist */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		338F7462284B7BC600F532AC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				338F7466284B7BE600F532AC /* Base */,
+				338F7465284B7BDD00F532AC /* Main */,
+				338F7464284B7BDA00F532AC /* External */,
+				338F7463284B7BCA00F532AC /* Utilts */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		338F7463284B7BCA00F532AC /* Utilts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilts;
+			sourceTree = "<group>";
+		};
+		338F7464284B7BDA00F532AC /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		338F7465284B7BDD00F532AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				338F7467284B7BEB00F532AC /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		338F7466284B7BE600F532AC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		338F7467284B7BEB00F532AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33A97DF4284B78090017111C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		33A97DE4284B78090017111C = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +114,8 @@
 		33A97DEF284B78090017111C /* GitProj */ = {
 			isa = PBXGroup;
 			children = (
-				33A97DF0284B78090017111C /* AppDelegate.swift */,
-				33A97DF2284B78090017111C /* SceneDelegate.swift */,
-				33A97DF4284B78090017111C /* ViewController.swift */,
-				33A97DF9284B780A0017111C /* Assets.xcassets */,
-				33A97DFB284B780A0017111C /* LaunchScreen.storyboard */,
-				33A97DFE284B780A0017111C /* Info.plist */,
+				338F7462284B7BC600F532AC /* UI */,
+				338F7461284B7BB800F532AC /* Apple */,
 			);
 			path = GitProj;
 			sourceTree = "<group>";
@@ -277,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N9K2W6G8E3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitProj/Info.plist;
+				INFOPLIST_FILE = GitProj/Apple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N9K2W6G8E3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitProj/Info.plist;
+				INFOPLIST_FILE = GitProj/Apple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
